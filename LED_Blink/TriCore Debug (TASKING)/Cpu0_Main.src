@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc16088a --dep-file=Cpu0_Main.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\aurix_workspace\\\\LED_Blink -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Configurations -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Infra -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Service -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o Cpu0_Main.src ../Cpu0_Main.c"
+	.compiler_invocation	"ctc -f cc16428a --dep-file=Cpu0_Main.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\aurix_workspace\\\\LED_Blink -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Configurations -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Infra -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Service -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\aurix_workspace\\\\LED_Blink\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o Cpu0_Main.src ../Cpu0_Main.c"
 	.compiler_name		"ctc"
 	;source	'../Cpu0_Main.c'
 
@@ -138,7 +138,7 @@ blink_led:	.type	func
 .L162:
 	mov	d0,#1
 .L111:
-	mov	d15,#1
+	movh	d15,#1
 .L113:
 	sha	d15,d15,d0
 .L163:
@@ -149,7 +149,7 @@ blink_led:	.type	func
 .L164:
 	mov	d0,#2
 .L114:
-	movh	d15,#1
+	mov	d15,#1
 .L116:
 	sha	d15,d15,d0
 .L165:
@@ -14724,13 +14724,13 @@ cpuSyncEvent:	.type	object
 	.byte	8
 	.word	.L110,.L2,.L3
 	.byte	0,0,0,0,0,0,5
-	.word	.L75,.L111,.L112
+	.word	.L54,.L111,.L112
 	.byte	6
-	.word	.L78,.L79
+	.word	.L57,.L89
 	.byte	6
-	.word	.L80,.L81
+	.word	.L59,.L90
 	.byte	7
-	.word	.L82,.L111,.L112
+	.word	.L61,.L111,.L112
 	.byte	5
 	.word	.L62,.L113,.L112
 	.byte	6
@@ -14742,13 +14742,13 @@ cpuSyncEvent:	.type	object
 	.byte	8
 	.word	.L70,.L113,.L112
 	.byte	0,0,0,5
-	.word	.L54,.L114,.L115
+	.word	.L75,.L114,.L115
 	.byte	6
-	.word	.L57,.L89
+	.word	.L78,.L79
 	.byte	6
-	.word	.L59,.L90
+	.word	.L80,.L81
 	.byte	7
-	.word	.L61,.L114,.L115
+	.word	.L82,.L114,.L115
 	.byte	5
 	.word	.L62,.L116,.L115
 	.byte	6
@@ -14857,25 +14857,25 @@ cpuSyncEvent:	.type	object
 	.half	.L160-.L159
 	.byte	1,4,1,5,45,9
 	.half	.L5-.L160
-	.byte	3,150,123,1,5,25,9
+	.byte	3,150,123,1,5,24,9
 	.half	.L161-.L5
-	.byte	3,2,1,5,37,9
+	.byte	3,2,1,5,36,9
 	.half	.L162-.L161
 	.byte	1,4,3,5,41,9
 	.half	.L111-.L162
-	.byte	3,132,4,1,5,26,9
+	.byte	3,138,4,1,5,26,9
 	.half	.L113-.L111
-	.byte	3,24,1,5,17,9
+	.byte	3,18,1,5,17,9
 	.half	.L163-.L113
-	.byte	1,4,1,5,24,9
+	.byte	1,4,1,5,25,9
 	.half	.L112-.L163
-	.byte	3,229,123,1,5,36,9
+	.byte	3,229,123,1,5,37,9
 	.half	.L164-.L112
 	.byte	1,4,3,5,41,9
 	.half	.L114-.L164
-	.byte	3,137,4,1,5,26,9
+	.byte	3,131,4,1,5,26,9
 	.half	.L116-.L114
-	.byte	3,18,1,5,17,9
+	.byte	3,24,1,5,17,9
 	.half	.L165-.L116
 	.byte	1,4,1,5,46,9
 	.half	.L115-.L165
@@ -15018,13 +15018,13 @@ cpuSyncEvent:	.type	object
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L100:
-	.word	-1,.L15,.L102-.L15,.L113-.L15
+.L118:
+	.word	-1,.L15,.L119-.L15,.L74-.L15
 	.half	1
 	.byte	95
 	.word	0,0
-.L118:
-	.word	-1,.L15,.L119-.L15,.L74-.L15
+.L100:
+	.word	-1,.L15,.L102-.L15,.L113-.L15
 	.half	1
 	.byte	95
 	.word	0,0

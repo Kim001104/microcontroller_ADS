@@ -49,8 +49,8 @@ void blink_led(void)
     IfxPort_setPinLow(&MODULE_P10, 2);
     waitTime(IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME));
 
-    IfxPort_setPinHigh(&MODULE_P10, 1);
-    IfxPort_setPinLow(&MODULE_P10, 2);
+    IfxPort_setPinLow(&MODULE_P10, 1);
+    IfxPort_setPinHigh(&MODULE_P10, 2);
     waitTime(IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME));
 
 }
