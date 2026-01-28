@@ -84,3 +84,5 @@ Cpu0_Main.o :	"C:\\aurix_workspace\\Ex_Interrupt\\Libraries\\iLLD\\TC27D\\Tricor
 "C:\\aurix_workspace\\Ex_Interrupt\\Libraries\\iLLD\\TC27D\\Tricore\_Impl\IfxSrc_cfg.h" :
 Cpu0_Main.o :	"C:\\aurix_workspace\\Ex_Interrupt\\Libraries\\iLLD\\TC27D\\Tricore\\Scu\\Std\IfxScuEru.h"
 "C:\\aurix_workspace\\Ex_Interrupt\\Libraries\\iLLD\\TC27D\\Tricore\\Scu\\Std\IfxScuEru.h" :
+Cpu0_Main.o :	"C:\\aurix_workspace\\Ex_Interrupt\\Libraries\\iLLD\\TC27D\\Tricore\\Port\\Std\IfxPort.h"
+"C:\\aurix_workspace\\Ex_Interrupt\\Libraries\\iLLD\\TC27D\\Tricore\\Port\\Std\IfxPort.h" :

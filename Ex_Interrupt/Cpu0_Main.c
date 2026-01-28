@@ -28,6 +28,8 @@
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
 #include "ERU_Interrupt.h"
+#include "IfxPort.h"
+
 IfxCpu_syncEvent cpuSyncEvent = 0;
 
 void core0_main(void)
@@ -43,10 +45,20 @@ void core0_main(void)
     /* Wait for CPU sync event */
     IfxCpu_emitEvent(&cpuSyncEvent);
     IfxCpu_waitEvent(&cpuSyncEvent, 1);
-    void init_gpio(void);
 
+    /*call init gpio in header file for Interrupt*/
+    init_gpio();
+
+    /*declare state of Switch*/
+    boolean swStateOld, swState = 1;
     while(1)
     {
+        /* configure Switch State */
+        swState = IfxPort_getPinState(SW1);
+        if((swState == 0) && (swStateOld == 1)) {
+            IfxPort_togglePin(BLUE_LED);
+        }
 
+        swStateOld = swState;
     }
 }
