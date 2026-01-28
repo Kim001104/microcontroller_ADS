@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.rt.hightec.agent.launcher.launchConfigurationType">
+    <stringAttribute key="ACC_HW" value="DAS JTAG SHIELDBUDDY TC275 4641SCV0"/>
+    <booleanAttribute key="ENABLE_AGENTLOG" value="false"/>
+    <booleanAttribute key="ENABLE_FLASHING" value="true"/>
+    <booleanAttribute key="ENABLE_STOPPING" value="true"/>
+    <stringAttribute key="EXECUTABLE_PATH" value="${workspace_loc}/LED_Blink/TriCore Debug (TASKING)/LED_Blink.elf"/>
+    <stringAttribute key="STOP_FUNCTION" value="core0_main"/>
+    <stringAttribute key="SVD" value="C:/Infineon/AURIX-Studio-1.10.28/build_system/bundled-artefacts-repo/svd/tc27xdpd/1.1-2/device.svd"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="LED_Blink"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/LED_Blink"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_LOCATION" value="/LED_Blink/LED_Blink TriCore Debug (TASKING).launch"/>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_PROJECT_NAME" value="LED_Blink"/>
+    <booleanAttribute key="org.eclipse.debug.ui.ATTR_SHARED" value="true"/>
+    <stringAttribute key="org.eclipse.tcf.debug.MemoryMap" value="[{&quot;FileName&quot;:&quot;C:/aurix_workspace/LED_Blink/TriCore Debug (TASKING)/LED_Blink.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;576d43dd-061c-44a2-9cd0-d13435eb7172&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/LED_Blink/TriCore Debug (TASKING)/LED_Blink.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;f2d85e26-6640-46d1-9773-26c809a64699&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/LED_Blink/TriCore Debug (TASKING)/LED_Blink.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;77068721-e700-4173-81d0-757463aa3c36&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/LED_Blink/TriCore Debug (TASKING)/LED_Blink.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;0144b5bc-0adb-4156-ab98-98e370a9ac00&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/LED_Blink/TriCore Debug (TASKING)/LED_Blink.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;88e1b293-2fdb-479c-96e7-c72cc3c89de7&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/LED_Blink/TriCore Debug (TASKING)/LED_Blink.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;88c0c0a5-e93e-42e4-856a-23f4744b483d&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/LED_Blink/TriCore Debug (TASKING)/LED_Blink.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;acd285f7-558f-433c-9a2e-399262526fce&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/LED_Blink/TriCore Debug (TASKING)/LED_Blink.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;53098450-e480-443f-93d4-09712c4212b8&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/LED_Blink/TriCore Debug (TASKING)/LED_Blink.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 1: CPU1 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;9b613118-1c6b-460f-a66a-c41d77ad9852&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/LED_Blink/TriCore Debug (TASKING)/LED_Blink.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;ac8e4379-84d3-4769-882d-93be3afc9290&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/LED_Blink/TriCore Debug (TASKING)/LED_Blink.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;7b817d56-95e3-4f44-9556-293c3c5b5c02&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/LED_Blink/TriCore Debug (TASKING)/LED_Blink.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 1: CPU1 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;8fd3e3dc-1634-4b0c-b9a8-5e1d5654a589&quot;}]"/>
+    <stringAttribute key="org.eclipse.tcf.debug.PeerID" value="TCP:127.0.0.1:1534"/>
+    <stringAttribute key="org.eclipse.tcf.debug.ProjectName" value="LED_Blink"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.RunLocalAgent" value="false"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.RunLocalServer" value="false"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.UseLocalAgent" value="false"/>
+    <stringAttribute key="org.eclipse.tcf.debug.executable_name" value="${workspace_loc}/LED_Blink/TriCore Debug (TASKING)/LED_Blink.elf"/>
+    <stringAttribute key="sessionID" value="1192e4ad-62ae-42fe-b859-c13d40ebea03"/>
+</launchConfiguration>
