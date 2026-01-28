@@ -76,3 +76,19 @@ Cpu0_Main.o :	"C:\\aurix_workspace\\LED_Blink\\Libraries\\iLLD\\TC27D\\Tricore\_
 "C:\\aurix_workspace\\LED_Blink\\Libraries\\iLLD\\TC27D\\Tricore\_PinMap\Ifx_PinMap.h" :
 Cpu0_Main.o :	"C:\\aurix_workspace\\LED_Blink\\Libraries\\iLLD\\TC27D\\Tricore\\Scu\\Std\IfxScuWdt.h"
 "C:\\aurix_workspace\\LED_Blink\\Libraries\\iLLD\\TC27D\\Tricore\\Scu\\Std\IfxScuWdt.h" :
+Cpu0_Main.o :	"C:\\aurix_workspace\\LED_Blink\\Libraries\\iLLD\\TC27D\\Tricore\\Port\\Std\IfxPort.h"
+"C:\\aurix_workspace\\LED_Blink\\Libraries\\iLLD\\TC27D\\Tricore\\Port\\Std\IfxPort.h" :
+Cpu0_Main.o :	"C:\\aurix_workspace\\LED_Blink\\Libraries\\Service\\CpuGeneric\\SysSe\\Bsp\Bsp.h"
+"C:\\aurix_workspace\\LED_Blink\\Libraries\\Service\\CpuGeneric\\SysSe\\Bsp\Bsp.h" :
+Cpu0_Main.o :	"C:\\aurix_workspace\\LED_Blink\\Libraries\\iLLD\\TC27D\\Tricore\Src\Std\IfxSrc.h"
+"C:\\aurix_workspace\\LED_Blink\\Libraries\\iLLD\\TC27D\\Tricore\Src\Std\IfxSrc.h" :
+Cpu0_Main.o :	"C:\\aurix_workspace\\LED_Blink\\Libraries\\iLLD\\TC27D\\Tricore\_Impl\IfxSrc_cfg.h"
+"C:\\aurix_workspace\\LED_Blink\\Libraries\\iLLD\\TC27D\\Tricore\_Impl\IfxSrc_cfg.h" :
+Cpu0_Main.o :	"C:\\aurix_workspace\\LED_Blink\\Libraries\\iLLD\\TC27D\\Tricore\Stm\Std\IfxStm.h"
+"C:\\aurix_workspace\\LED_Blink\\Libraries\\iLLD\\TC27D\\Tricore\Stm\Std\IfxStm.h" :
+Cpu0_Main.o :	"C:\\aurix_workspace\\LED_Blink\\Libraries\\iLLD\\TC27D\\Tricore\_Impl\IfxStm_cfg.h"
+"C:\\aurix_workspace\\LED_Blink\\Libraries\\iLLD\\TC27D\\Tricore\_Impl\IfxStm_cfg.h" :
+Cpu0_Main.o :	"C:\\aurix_workspace\\LED_Blink\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxCbs_reg.h"
+"C:\\aurix_workspace\\LED_Blink\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxCbs_reg.h" :
+Cpu0_Main.o :	"C:\\aurix_workspace\\LED_Blink\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxCbs_regdef.h"
+"C:\\aurix_workspace\\LED_Blink\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxCbs_regdef.h" :

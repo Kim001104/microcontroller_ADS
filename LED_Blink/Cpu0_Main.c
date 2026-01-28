@@ -27,9 +27,33 @@
 #include "Ifx_Types.h"
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
+#include "IfxPort.h"
+#include "Bsp.h"
 
 IfxCpu_syncEvent cpuSyncEvent = 0;
+#define WAIT_TIME 500
 
+void init_led(void)
+{
+    /* Set GPIO 10.1 & 10.2 as Output */
+    IfxPort_setPinModeOutput(&MODULE_P10, 1, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+    IfxPort_setPinModeOutput(&MODULE_P10, 2, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+
+    /* Set GPIO 10.1 & 10.2 as Low(LED OFF)*/
+    IfxPort_setPinLow(&MODULE_P10, 1);
+    IfxPort_setPinLow(&MODULE_P10, 2);
+}
+void blink_led(void)
+{
+    IfxPort_setPinHigh(&MODULE_P10, 1);
+    IfxPort_setPinLow(&MODULE_P10, 2);
+    waitTime(IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME));
+
+    IfxPort_setPinHigh(&MODULE_P10, 1);
+    IfxPort_setPinLow(&MODULE_P10, 2);
+    waitTime(IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME));
+
+}
 void core0_main(void)
 {
     IfxCpu_enableInterrupts();
@@ -43,8 +67,10 @@ void core0_main(void)
     /* Wait for CPU sync event */
     IfxCpu_emitEvent(&cpuSyncEvent);
     IfxCpu_waitEvent(&cpuSyncEvent, 1);
-        
+
+    init_led();
     while(1)
     {
+        blink_led();
     }
 }
