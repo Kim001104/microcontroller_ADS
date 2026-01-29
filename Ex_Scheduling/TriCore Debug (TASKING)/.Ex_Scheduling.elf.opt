@@ -68,6 +68,7 @@
 "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.o"
 "Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.o"
 "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.o"
+"Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.o"
 "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.o"
 "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.o"
 "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.o"

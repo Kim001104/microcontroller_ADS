@@ -1,0 +1,16 @@
+LOADING	App
+LOADING	C:\aurix_workspace\Ex_Scheduling_Func\TriCore Debug (TASKING)\Ex_Scheduling_Func.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC identification match OK
+SoC	Detected device: TC270 series, rev. DC
+EMULATION	STARTED
+PROGRAMMING 	9780 bytes
+PROGRAMMING	Infineon TC27x_PFLASH_4MB (3 sectors)
+EMULATION	END - Without cleanup

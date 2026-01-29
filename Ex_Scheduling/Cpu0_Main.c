@@ -32,7 +32,8 @@
 #include "IfxScuCcu.h"
 
 
-IfxCpu_syncEvent g_cpuSyncEvent = 0;
+IfxCpu_syncEvent cpuSyncEvent = 0;
+
 
 /* Declare STM variables */
 Ifx_STM *stmSfr;
@@ -68,8 +69,8 @@ void core0_main(void)
     IfxScuWdt_disableSafetyWatchdog(IfxScuWdt_getSafetyWatchdogPassword());
     
     /* Wait for CPU sync event */
-    IfxCpu_emitEvent(&g_cpuSyncEvent);
-    IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
+    IfxCpu_emitEvent(&cpuSyncEvent);
+    IfxCpu_waitEvent(&cpuSyncEvent, 1);
 
     /* Initialization of GPIO */
     init_led();
@@ -146,17 +147,17 @@ void stm0Sr0ISR(void)
 /* task */
 void core0_task(void)
 {
-   if(task1msFlag == 1U)
+   if(task1msFlag == 1U)    /* 1 */
    {
        task1msFlag = 0U;
        core0_task_1ms();
    }
-   if(task10msFlag == 1U)
+   if(task10msFlag == 1U)   /* 10 */
    {
        task10msFlag = 0U;
        core0_task_10ms();
    }
-   if(task100msFlag == 1U)
+   if(task100msFlag == 1U)  /* 100 */
    {
        task100msFlag = 0U;
        core0_task_100ms();
@@ -171,11 +172,12 @@ void core0_task_1ms(void)
 
 void core0_task_10ms(void)
 {
-
+    IfxPort_togglePin(&MODULE_P10, 1);
 
 }
 
 void core0_task_100ms(void)
 {
+    IfxPort_togglePin(&MODULE_P10, 2);
 
 }
