@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.rt.hightec.agent.launcher.launchConfigurationType">
+    <stringAttribute key="ACC_HW" value="DAS JTAG SHIELDBUDDY TC275 4641SCV0"/>
+    <booleanAttribute key="ENABLE_AGENTLOG" value="false"/>
+    <booleanAttribute key="ENABLE_FLASHING" value="true"/>
+    <booleanAttribute key="ENABLE_STOPPING" value="true"/>
+    <stringAttribute key="EXECUTABLE_PATH" value="${workspace_loc}/GTM_TOM_PWM_Ex/TriCore Debug (TASKING)/GTM_TOM_PWM_Ex.elf"/>
+    <stringAttribute key="STOP_FUNCTION" value="core0_main"/>
+    <stringAttribute key="SVD" value="C:/Infineon/AURIX-Studio-1.10.28/build_system/bundled-artefacts-repo/svd/tc27xdpd/1.1-2/device.svd"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="GTM_TOM_PWM_Ex"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/GTM_TOM_PWM_Ex"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_LOCATION" value="/GTM_TOM_PWM_Ex/GTM_TOM_PWM_Ex TriCore Debug (TASKING).launch"/>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_PROJECT_NAME" value="GTM_TOM_PWM_Ex"/>
+    <booleanAttribute key="org.eclipse.debug.ui.ATTR_SHARED" value="true"/>
+    <stringAttribute key="org.eclipse.tcf.debug.MemoryMap" value="[{&quot;FileName&quot;:&quot;C:/aurix_workspace/GTM_TOM_PWM_Ex/TriCore Debug (TASKING)/GTM_TOM_PWM_Ex.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;b6dce153-aacd-40bd-aec9-2d2c9b9a415a&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/GTM_TOM_PWM_Ex/TriCore Debug (TASKING)/GTM_TOM_PWM_Ex.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;8130367d-f496-45bf-af9d-c37f4b3666f0&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/GTM_TOM_PWM_Ex/TriCore Debug (TASKING)/GTM_TOM_PWM_Ex.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;c0792e6f-c61e-4a72-a394-8e4f885a30d9&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/GTM_TOM_PWM_Ex/TriCore Debug (TASKING)/GTM_TOM_PWM_Ex.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;18b6da41-1362-4058-93ee-9ee5e59bfdb1&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/GTM_TOM_PWM_Ex/TriCore Debug (TASKING)/GTM_TOM_PWM_Ex.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;d945ffb1-7e32-428b-9eb4-d4593dee98e9&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/GTM_TOM_PWM_Ex/TriCore Debug (TASKING)/GTM_TOM_PWM_Ex.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;58813eb0-2282-4f11-ae9f-299721acf8cf&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/GTM_TOM_PWM_Ex/TriCore Debug (TASKING)/GTM_TOM_PWM_Ex.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;f8c2253a-255f-4010-88ee-79596bc5abc1&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/GTM_TOM_PWM_Ex/TriCore Debug (TASKING)/GTM_TOM_PWM_Ex.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;eea984c3-5b7f-43b4-9c1d-2c00ace144af&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/GTM_TOM_PWM_Ex/TriCore Debug (TASKING)/GTM_TOM_PWM_Ex.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 1: CPU1 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;020d7490-9d74-4619-b9ea-07360cfd5662&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/GTM_TOM_PWM_Ex/TriCore Debug (TASKING)/GTM_TOM_PWM_Ex.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;9e1e6133-b01d-47e6-bdc2-a9053b2f3149&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/GTM_TOM_PWM_Ex/TriCore Debug (TASKING)/GTM_TOM_PWM_Ex.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;300e62c8-b35d-46bf-929d-fdc229de3368&quot;},{&quot;FileName&quot;:&quot;C:/aurix_workspace/GTM_TOM_PWM_Ex/TriCore Debug (TASKING)/GTM_TOM_PWM_Ex.elf&quot;,&quot;ID&quot;:&quot;/DAS JTAG SHIELDBUDDY TC275 4641SCV0/Core 1: CPU1 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;401eeba6-fb47-4a6c-beb1-d06ca1d116be&quot;}]"/>
+    <stringAttribute key="org.eclipse.tcf.debug.PeerID" value="TCP:127.0.0.1:1534"/>
+    <stringAttribute key="org.eclipse.tcf.debug.ProjectName" value="GTM_TOM_PWM_Ex"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.RunLocalAgent" value="false"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.RunLocalServer" value="false"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.UseLocalAgent" value="false"/>
+    <stringAttribute key="org.eclipse.tcf.debug.executable_name" value="${workspace_loc}/GTM_TOM_PWM_Ex/TriCore Debug (TASKING)/GTM_TOM_PWM_Ex.elf"/>
+    <stringAttribute key="sessionID" value="af8017e5-8754-44dd-9b76-d509bf8e63b8"/>
+</launchConfiguration>
