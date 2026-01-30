@@ -98,3 +98,7 @@ Scheduling_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM\\Libraries\\Infra\\Sfr\\TC27D
 "C:\\aurix_workspace\\Ex_ADC_PWM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxCbs_regdef.h" :
 Scheduling_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM\\Libraries\\iLLD\\TC27D\\Tricore\\Scu\\Std\IfxScuCcu.h"
 "C:\\aurix_workspace\\Ex_ADC_PWM\\Libraries\\iLLD\\TC27D\\Tricore\\Scu\\Std\IfxScuCcu.h" :
+Scheduling_Ex.o :	..\ADC_Background_Ex.h
+..\ADC_Background_Ex.h :
+Scheduling_Ex.o :	..\GTM_TOM_PWM_Ex.h
+..\GTM_TOM_PWM_Ex.h :

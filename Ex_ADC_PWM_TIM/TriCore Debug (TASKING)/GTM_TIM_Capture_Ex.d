@@ -1,0 +1,116 @@
+GTM_TIM_Capture_Ex.o :	../GTM_TIM_Capture_Ex.c
+../GTM_TIM_Capture_Ex.c :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\Ifx_Types.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\Ifx_Types.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Configurations\Ifx_Cfg.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Configurations\Ifx_Cfg.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h" :
+GTM_TIM_Capture_Ex.o :	"C:\Infineon\AURIX-Studio-1.10.28\tools\Compilers\Tasking_1.1r8\ctc\include\stddef.h"
+"C:\Infineon\AURIX-Studio-1.10.28\tools\Compilers\Tasking_1.1r8\ctc\include\stddef.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\Platform_Types.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\Platform_Types.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\Ifx_TypesTasking.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\Ifx_TypesTasking.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\\Gtm\\Tim\\In\IfxGtm_Tim_In.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\\Gtm\\Tim\\In\IfxGtm_Tim_In.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\_PinMap\IfxGtm_PinMap.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\_PinMap\IfxGtm_PinMap.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxGtm_reg.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxGtm_reg.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxGtm_regdef.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxGtm_regdef.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\Ifx_TypesReg.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\Ifx_TypesReg.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\_Impl\IfxGtm_cfg.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\_Impl\IfxGtm_cfg.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Cpu\Std\IfxCpu_Intrinsics.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Cpu\Std\IfxCpu_Intrinsics.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Cpu\Std\IfxCpu_IntrinsicsTasking.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Cpu\Std\IfxCpu_IntrinsicsTasking.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Port\Std\IfxPort.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Port\Std\IfxPort.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\_Impl\IfxPort_cfg.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\_Impl\IfxPort_cfg.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxPort_reg.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxPort_reg.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxPort_regdef.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxPort_regdef.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Scu\Std\IfxScuWdt.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Scu\Std\IfxScuWdt.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\_Impl\IfxScu_cfg.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\_Impl\IfxScu_cfg.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxScu_bf.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxScu_bf.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxFlash_bf.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxFlash_bf.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Cpu\Std\Ifx_Types.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Cpu\Std\Ifx_Types.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxScu_reg.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxScu_reg.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxScu_regdef.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxScu_regdef.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Scu\Std\IfxScuWdt.asm.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Scu\Std\IfxScuWdt.asm.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\_PinMap\Ifx_PinMap.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\_PinMap\Ifx_PinMap.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Gtm\Std\IfxGtm_Atom.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Gtm\Std\IfxGtm_Atom.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Gtm\Std\IfxGtm.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Gtm\Std\IfxGtm.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Gtm\Std\IfxGtm_Tbu.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Gtm\Std\IfxGtm_Tbu.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Src\Std\IfxSrc.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Src\Std\IfxSrc.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\_Impl\IfxSrc_cfg.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\_Impl\IfxSrc_cfg.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxSrc_reg.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxSrc_reg.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxSrc_regdef.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxSrc_regdef.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Gtm\Std\IfxGtm_Cmu.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Gtm\Std\IfxGtm_Cmu.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Gtm\Std\IfxGtm_Tom.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Gtm\Std\IfxGtm_Tom.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxGtm_bf.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxGtm_bf.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Gtm\Std\IfxGtm_Tim.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Gtm\Std\IfxGtm_Tim.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Gtm\Std\IfxGtm_Cmu.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Gtm\Std\IfxGtm_Cmu.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Cpu\Std\IfxCpu.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Cpu\Std\IfxCpu.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\_Impl\IfxCpu_cfg.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\_Impl\IfxCpu_cfg.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxCpu_reg.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxCpu_reg.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxCpu_regdef.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxCpu_regdef.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxStm_reg.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxStm_reg.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxStm_regdef.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxStm_regdef.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Service\\CpuGeneric\_Utilities\Ifx_Assert.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Service\\CpuGeneric\_Utilities\Ifx_Assert.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Scu\Std\IfxScuCcu.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Scu\Std\IfxScuCcu.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Cpu\Std\IfxCpu.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Cpu\Std\IfxCpu.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxFlash_reg.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxFlash_reg.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxFlash_regdef.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxFlash_regdef.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\_PinMap\IfxScu_PinMap.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\_PinMap\IfxScu_PinMap.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Service\\CpuGeneric\StdIf\IfxStdIf_PwmHl.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Service\\CpuGeneric\StdIf\IfxStdIf_PwmHl.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Service\\CpuGeneric\StdIf\IfxStdIf.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Service\\CpuGeneric\StdIf\IfxStdIf.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Service\\CpuGeneric\StdIf\IfxStdIf_Timer.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\Service\\CpuGeneric\StdIf\IfxStdIf_Timer.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\\Gtm\\Tom\\Pwm\IfxGtm_Tom_Pwm.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\\Gtm\\Tom\\Pwm\IfxGtm_Tom_Pwm.h" :
+GTM_TIM_Capture_Ex.o :	"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Gtm\Std\IfxGtm_Cmu.h"
+"C:\\aurix_workspace\\Ex_ADC_PWM_TIM\\Libraries\\iLLD\\TC27D\\Tricore\Gtm\Std\IfxGtm_Cmu.h" :

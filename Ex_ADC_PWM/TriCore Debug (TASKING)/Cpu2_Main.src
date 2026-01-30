@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc19188a --dep-file=Cpu2_Main.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Configurations -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Infra -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Service -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o Cpu2_Main.src ../Cpu2_Main.c"
+	.compiler_invocation	"ctc -f cc9940a --dep-file=Cpu2_Main.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Configurations -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Infra -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Service -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\aurix_workspace\\\\Ex_ADC_PWM\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o Cpu2_Main.src ../Cpu2_Main.c"
 	.compiler_name		"ctc"
 	;source	'../Cpu2_Main.c'
 
@@ -21,12 +21,12 @@ core2_main:	.type	func
 	mov	d4,d2
 	call	IfxScuWdt_disableCpuWatchdog
 .L27:
-	movh.a	a4,#@his(cpuSyncEvent)
-	lea	a4,[a4]@los(cpuSyncEvent)
+	movh.a	a4,#@his(g_cpuSyncEvent)
+	lea	a4,[a4]@los(g_cpuSyncEvent)
 	call	IfxCpu_emitEvent
 .L28:
-	movh.a	a4,#@his(cpuSyncEvent)
-	lea	a4,[a4]@los(cpuSyncEvent)
+	movh.a	a4,#@his(g_cpuSyncEvent)
+	lea	a4,[a4]@los(g_cpuSyncEvent)
 .L29:
 	mov	d4,#1
 	call	IfxCpu_waitEvent
@@ -52,12 +52,12 @@ __core2_main_function_end:
 	.extern	IfxScuWdt_getCpuWatchdogPassword
 	.extern	IfxCpu_waitEvent
 	.extern	IfxCpu_emitEvent
-	.extern	cpuSyncEvent
+	.extern	g_cpuSyncEvent
 	.calls	'core2_main','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
 .L7:
-	.word	78738
+	.word	78740
 	.half	3
 	.word	.L8
 	.byte	4
@@ -11812,7 +11812,7 @@ __core2_main_function_end:
 	.byte	'IfxCpu_Perf',0,7,178,1,3
 	.word	78600
 	.byte	29
-	.byte	'cpuSyncEvent',0,9,31,25
+	.byte	'g_cpuSyncEvent',0,9,31,25
 	.word	429
 	.byte	1,1,0
 	.sdecl	'.debug_abbrev',debug
@@ -11917,7 +11917,7 @@ __core2_main_function_end:
 	.half	.L27-.L17
 	.byte	3,3,1,9
 	.half	.L28-.L27
-	.byte	3,1,1,5,37,9
+	.byte	3,1,1,5,39,9
 	.half	.L29-.L28
 	.byte	1,5,12,9
 	.half	.L30-.L29

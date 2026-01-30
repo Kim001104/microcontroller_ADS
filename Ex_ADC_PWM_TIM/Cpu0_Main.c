@@ -27,6 +27,11 @@
 #include "Ifx_Types.h"
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
+#include "GTM_TIM_Capture_Ex.h"
+#include "GTM_TOM_PWM_Ex.h"
+#include "ADC_Background_Ex.h"
+#include "Bsp.h"
+#include "Scheduling_Ex.h"
 
 IfxCpu_syncEvent cpuSyncEvent = 0;
 
@@ -43,8 +48,15 @@ void core0_main(void)
     /* Wait for CPU sync event */
     IfxCpu_emitEvent(&cpuSyncEvent);
     IfxCpu_waitEvent(&cpuSyncEvent, 1);
+
+    init_stm0();
+    init_TIM(); //TIM 초기화
+    initGtmTomPwm();    //TOM초기화
+    initADC();  //ADC 초기화
+
         
     while(1)
     {
+        core0_task();
     }
 }

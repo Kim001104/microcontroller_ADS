@@ -94,4 +94,3 @@ void setDutyCycle(uint32 dutyCycle)
     g_tomConfig.dutyCycle = dutyCycle;                              /* Change the value of the duty cycle           */
     IfxGtm_Tom_Pwm_init(&g_tomDriver, &g_tomConfig);                /* Re-initialize the PWM                        */
 }
-
