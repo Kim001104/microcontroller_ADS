@@ -27,9 +27,14 @@
 #include "Ifx_Types.h"
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
-#include "GTM_TOM_PWM_Ex.h"
-#include "ADC_Background_Ex.h"
+#include "Scheduling_Ex.h"
+#include "ADC_Background_Ex.h"// addition for ADC
+#include "GTM_TOM_PWM_Ex.h" // add for pwm
+#include "Bsp.h" // add for waitTime
+
+
 IfxCpu_syncEvent cpuSyncEvent = 0;
+
 
 void core0_main(void)
 {
@@ -45,12 +50,18 @@ void core0_main(void)
     IfxCpu_emitEvent(&cpuSyncEvent);
     IfxCpu_waitEvent(&cpuSyncEvent, 1);
 
+    /* Initialization of STM */
+    init_stm0();
 
-//    init_stm0();    //stm초기화
-    initGtmTomPwm();    //TomPwm 초기화
-    initADC();   //ADC 초기화
+    /* Initialize the VADC module and start the background scan */
+    initADC();
+
+    /* Initialize GTM TOM module */
+    initGtmTomPwm();
+
+
     while(1)
     {
-        varResToPwm(readADCValue(CHN_4));
+        core0_task();
     }
 }

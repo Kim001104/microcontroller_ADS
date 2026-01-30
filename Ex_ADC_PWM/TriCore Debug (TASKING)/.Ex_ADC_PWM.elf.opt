@@ -90,6 +90,8 @@
 "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.o"
 "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.o"
 "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.o"
+"Libraries/Service/CpuGeneric/SysSe/Bsp/Assert.o"
+"Libraries/Service/CpuGeneric/SysSe/Bsp/Bsp.o"
 "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.o"
 "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.o"
 "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.o"

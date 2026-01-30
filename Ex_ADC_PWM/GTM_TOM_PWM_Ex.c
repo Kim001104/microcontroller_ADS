@@ -39,7 +39,7 @@
 /*********************************************************************************************************************/
 #define LED                 IfxGtm_TOM0_2_TOUT104_P10_2_OUT         /* LED which will be driven by the PWM          */
 #define PWM_PERIOD          50000                                   /* PWM period for the TOM                       */
-#define FADE_STEP           PWM_PERIOD / 100
+
 
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
@@ -47,7 +47,6 @@
 IfxGtm_Tom_Pwm_Config g_tomConfig;                                  /* Timer configuration structure                */
 IfxGtm_Tom_Pwm_Driver g_tomDriver;                                  /* Timer Driver structure                       */
 uint32 g_fadeValue = 0;                                             /* Fade value, starting from 0                  */
-sint8 g_fadeDir = 1;
 
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
@@ -58,7 +57,6 @@ sint8 g_fadeDir = 1;
 /*********************************************************************************************************************/
 void setDutyCycle(uint32 dutyCycle);                                /* Function to set the duty cycle of the PWM    */
 void varResToPwm(uint16 adcValue);
-void fadeLED(void);
 
 /*********************************************************************************************************************/
 /*---------------------------------------------Function Implementations----------------------------------------------*/
@@ -90,24 +88,10 @@ void varResToPwm(uint16 adcValue)
     setDutyCycle(g_fadeValue);                                      /* Set the duty cycle of the PWM                */
 }
 
-/* This function creates the fade effect for the LED */
-void fadeLED(void)
-{
-    if((g_fadeValue + FADE_STEP) >= PWM_PERIOD)
-    {
-        g_fadeDir = -1;                                             /* Set the direction of the fade                */
-    }
-    else if((g_fadeValue - FADE_STEP) <= 0)
-    {
-        g_fadeDir = 1;                                              /* Set the direction of the fade                */
-    }
-    g_fadeValue += g_fadeDir * FADE_STEP;                           /* Calculation of the new duty cycle            */
-    setDutyCycle(g_fadeValue);                                      /* Set the duty cycle of the PWM                */
-}
-
 /* This function sets the duty cycle of the PWM */
 void setDutyCycle(uint32 dutyCycle)
 {
     g_tomConfig.dutyCycle = dutyCycle;                              /* Change the value of the duty cycle           */
     IfxGtm_Tom_Pwm_init(&g_tomDriver, &g_tomConfig);                /* Re-initialize the PWM                        */
 }
+
