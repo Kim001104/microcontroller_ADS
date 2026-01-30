@@ -63,7 +63,7 @@ void SCUERU_Int0_Handler(void)
     IfxPort_setPinState(RED_LED, IfxPort_State_toggled);                        /* Toggle LED                       */
 }
 
-void init_gpio(void)
+void init_eru(void)
 {
     /* Set GPIO 10.1 and 10.2 as Output */
         IfxPort_setPinModeOutput(RED_LED, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);

@@ -47,7 +47,7 @@ void core0_main(void)
     IfxCpu_waitEvent(&cpuSyncEvent, 1);
 
     /*call init gpio in header file for Interrupt*/
-    init_gpio();
+    init_eru();
 
     /*declare state of Switch*/
     boolean swStateOld, swState = 1;
